@@ -124,6 +124,7 @@
     <Folder Include="Security\" />
     <Folder Include="dbo\Functions\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Pusblish\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Nestle_Social_Facebook_KPI.sql">
@@ -550,9 +551,6 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
-    <Build Include="Security\madhu.rajagopalan%40wmglobal.com.sql" />
-    <Build Include="Security\kamakshi.bagga%40wmglobal.com.sql" />
-    <Build Include="Security\madhumita.roy%40wmglobal.com.sql" />
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Functions\SplitStringDelimiter.sql">
       <AnsiNulls>On</AnsiNulls>
@@ -612,5 +610,8 @@
     </Build>
     <Build Include="Security\Permissions.sql" />
     <Build Include="dbo\Tables\Table1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pusblish\Nestle.publish.xml" />
   </ItemGroup>
 </Project>
