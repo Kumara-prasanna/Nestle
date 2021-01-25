@@ -607,7 +607,9 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
-    <Build Include="dbo\Tables\Table1.sql" />
+    <Build Include="dbo\Tables\Table1.sql">
+      <AnsiNulls>Off</AnsiNulls>
+    </Build>
   </ItemGroup>
   <ItemGroup>
     <None Include="Pusblish\Nestle.publish.xml" />
