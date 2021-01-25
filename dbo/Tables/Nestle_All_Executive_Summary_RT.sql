@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[Nestle_All_Executive_Summary_RT] (
+    [Campaign]                NVARCHAR (MAX)  NULL,
+    [Date]                    DATETIME        NULL,
+    [Impressions]             BIGINT          NULL,
+    [Clicks]                  NUMERIC (23, 4) NULL,
+    [Video Views - 25%]       BIGINT          NULL,
+    [Video Views - 50%]       FLOAT (53)      NULL,
+    [Video Views - 75%]       BIGINT          NULL,
+    [Video Views - 100%]      BIGINT          NULL,
+    [Video Views]             BIGINT          NULL,
+    [Conversions]             NUMERIC (38, 4) NULL,
+    [Spend]                   REAL            NULL,
+    [Sales]                   NUMERIC (13, 4) NULL,
+    [Search Impression Share] FLOAT (53)      NULL,
+    [FilterName]              VARCHAR (38)    NULL,
+    [FilterNameUpdated]       VARCHAR (43)    NULL,
+    [Brand]                   NVARCHAR (100)  NULL,
+    [Channel]                 VARCHAR (18)    NULL,
+    [Branded_CPC]             NVARCHAR (50)   NULL,
+    [Branded_Impr_Share]      NVARCHAR (50)   NULL,
+    [Non_Branded_CPC]         NVARCHAR (50)   NULL,
+    [Non_Branded_Impr_Share]  NVARCHAR (50)   NULL,
+    [Competitive_CPC]         NVARCHAR (50)   NULL,
+    [Competitive_Impr_Share]  NVARCHAR (50)   NULL
+);
+

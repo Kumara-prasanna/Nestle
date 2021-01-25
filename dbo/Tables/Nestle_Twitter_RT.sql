@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[Nestle_Twitter_RT] (
+    [Date]               DATE            NULL,
+    [Platform]           VARCHAR (7)     NULL,
+    [Account]            NVARCHAR (250)  NULL,
+    [Campaign]           NVARCHAR (MAX)  NULL,
+    [Objective]          NVARCHAR (50)   NULL,
+    [Gender]             VARCHAR (7)     NULL,
+    [Age]                VARCHAR (7)     NULL,
+    [Twitter Account]    NVARCHAR (50)   NULL,
+    [tweet]              NVARCHAR (MAX)  NULL,
+    [Spend]              NUMERIC (13, 4) NULL,
+    [Impressions]        BIGINT          NULL,
+    [Clicks]             BIGINT          NULL,
+    [Tweets Engagement]  BIGINT          NULL,
+    [Video Views]        BIGINT          NULL,
+    [Video Views - 25%]  BIGINT          NULL,
+    [Video Views - 50%]  BIGINT          NULL,
+    [Video Views - 75%]  BIGINT          NULL,
+    [Video Views - 100%] BIGINT          NULL,
+    [FilterName]         VARCHAR (38)    NULL,
+    [Language]           VARCHAR (7)     NULL,
+    [FilterNameUpdated]  VARCHAR (43)    NULL,
+    [Brand]              NVARCHAR (100)  NULL,
+    [CPM]                FLOAT (53)      NOT NULL
+);
+
