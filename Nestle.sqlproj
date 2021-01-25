@@ -551,7 +551,6 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
-    <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Functions\SplitStringDelimiter.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
@@ -608,7 +607,6 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
-    <Build Include="Security\Permissions.sql" />
     <Build Include="dbo\Tables\Table1.sql" />
   </ItemGroup>
   <ItemGroup>
