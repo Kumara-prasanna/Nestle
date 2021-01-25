@@ -628,5 +628,6 @@
     </Build>
     <Build Include="Security\https___nestledb.blob.core.windows.net_sqldbauditlogs.sql" />
     <Build Include="Security\Permissions.sql" />
+    <Build Include="dbo\Tables\Table1.sql" />
   </ItemGroup>
 </Project>
