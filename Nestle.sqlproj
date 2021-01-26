@@ -610,6 +610,7 @@
     <Build Include="dbo\Tables\Table1.sql">
       <AnsiNulls>Off</AnsiNulls>
     </Build>
+    <Build Include="User1.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pusblish\Nestle.publish.xml" />
