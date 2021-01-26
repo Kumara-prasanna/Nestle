@@ -125,6 +125,10 @@
     <Folder Include="dbo\Functions\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Pusblish\" />
+    <Folder Include="DataSync\" />
+    <Folder Include="DataSync\Tables\" />
+    <Folder Include="DataSync\Stored Procedures\" />
+    <Folder Include="DataSync\User Defined Types\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Nestle_Social_Facebook_KPI.sql">
@@ -611,8 +615,513 @@
       <AnsiNulls>Off</AnsiNulls>
     </Build>
     <Build Include="User1.sql" />
+    <Build Include="dbo\Tables\GCM_Demo.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Xaxis_GCM_Placement_Fix.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_TEST_ADVERITY.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Mapping.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Google_AdWords.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Google_Ads_New.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Google_Ads_KW_AS.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Google_Ads_KW.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_GCM_Spend.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_GCM_Ads.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_FB_Reach.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_FB_Ads_PP.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_FB_Ads.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Facebook_Ads_Reach_Weekly.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Facebook_Ads_Reach_ToDate.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Facebook_Ads_Publisher_Platform.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Facebook_Ads_Age_Gender.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\cd_ams_kenshoo_bckup.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_Ams_Kenshoo.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_ams_672.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_AMN_Search.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_AMN_S_Pro_ProAds.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_AMN_S_Pro_KW.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_AMN_S_Pro_ASIN.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_AMN_S_Brands_Ads.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_AMN_Display_All_Spend.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\CD_AMN_Display_All_Metrics.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Tables\Brands.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Tables\CD_Facebook_Ads_Publisher_Platform_dss_tracking.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Tables\CD_TEST_ADVERITY_dss_tracking.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Tables\CD_Facebook_Ads_Age_Gender_dss_tracking.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Tables\provision_marker_dss.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Tables\scope_config_dss.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Tables\scope_info_dss.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Tables\schema_info_dss.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Tables\CD_Google_AdWords_dss_tracking.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Tables\CD_Facebook_Ads_Reach_Weekly_dss_tracking.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Tables\CD_Facebook_Ads_Reach_ToDate_dss_tracking.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Social_Facebook_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Social_ExecutiveSummary_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Google_SEM_View_Updated.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Google_SEM_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_GCM_Spend_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_GCM_NoSpend_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Facebook_Ads_Reach_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Facebook_Ads_Publisher_Platform_View_test.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Facebook_Ads_Publisher_Platform_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Facebook_Ads_Age_Gender_View_Test.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Facebook_Ads_Age_Gender_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Exec_Summary.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Ams_SEM_View_Updated_Old.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Ams_SEM_View_Updated_KP.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_Ams_SEM_View_Updated.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_AMN_SEM_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_AMN_Display_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Views\CD_AMN_Ads_View.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="Security\madhu.rajagopalan%40wmglobal.com.sql" />
+    <Build Include="Security\kamakshi.bagga%40wmglobal.com.sql" />
+    <Build Include="Security\RoleMemberships.sql" />
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_deletemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_updatemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_insertmetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_bulkdelete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_bulkupdate_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_bulkinsert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_deletemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_updatemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_insertmetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_delete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_update_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_insert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_deletemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_selectrow_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_updatemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_TEST_ADVERITY_dss_selectchanges_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_insertmetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_bulkdelete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_bulkupdate_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_bulkinsert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_delete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_update_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_insert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_selectrow_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_selectchanges_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_bulkdelete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_bulkupdate_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_bulkinsert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_delete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_update_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_insert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_selectrow_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_selectchanges_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_bulkdelete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_bulkupdate_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_bulkinsert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_delete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_update_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_insert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_selectrow_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_selectchanges_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_bulkdelete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_bulkupdate_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_bulkinsert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_delete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_update_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_insert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_selectrow_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Publisher_Platform_dss_selectchanges_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_bulkdelete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_bulkupdate_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_bulkinsert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_delete_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_update_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_insert_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_selectrow_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Age_Gender_dss_selectchanges_86428056-fea2-4062-8e10-5f42d853c559.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_deletemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_updatemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Google_AdWords_dss_insertmetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_deletemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_updatemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_Weekly_dss_insertmetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_deletemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_updatemetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\Stored Procedures\CD_Facebook_Ads_Reach_ToDate_dss_insertmetadata.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="DataSync\User Defined Types\CD_TEST_ADVERITY_dss_BulkType_86428056-fea2-4062-8e10-5f42d853c559.sql" />
+    <Build Include="DataSync\User Defined Types\CD_Google_AdWords_dss_BulkType_86428056-fea2-4062-8e10-5f42d853c559.sql" />
+    <Build Include="DataSync\User Defined Types\CD_Facebook_Ads_Reach_Weekly_dss_BulkType_86428056-fea2-4062-8e10-5f42d853c559.sql" />
+    <Build Include="DataSync\User Defined Types\CD_Facebook_Ads_Reach_ToDate_dss_BulkType_86428056-fea2-4062-8e10-5f42d853c559.sql" />
+    <Build Include="DataSync\User Defined Types\CD_Facebook_Ads_Publisher_Platform_dss_BulkType_86428056-fea2-4062-8e10-5f42d853c559.sql" />
+    <Build Include="DataSync\User Defined Types\CD_Facebook_Ads_Age_Gender_dss_BulkType_86428056-fea2-4062-8e10-5f42d853c559.sql" />
+    <Build Include="Security\DataSync.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pusblish\Nestle.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\AzureV12\SqlSchemas\master.dacpac">
+      <HintPath>$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\AzureV12\SqlSchemas\master.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
+    </ArtifactReference>
   </ItemGroup>
 </Project>

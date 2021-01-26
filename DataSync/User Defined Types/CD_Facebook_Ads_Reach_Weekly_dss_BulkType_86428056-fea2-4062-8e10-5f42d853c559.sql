@@ -1,0 +1,23 @@
+﻿CREATE TYPE [DataSync].[CD_Facebook_Ads_Reach_Weekly_dss_BulkType_86428056-fea2-4062-8e10-5f42d853c559] AS TABLE (
+    [dt_created]                 DATETIME        NULL,
+    [dt_updated]                 DATETIME        NULL,
+    [dt_filename]                NVARCHAR (255)  NULL,
+    [impressions]                BIGINT          NULL,
+    [date_stop]                  DATE            NOT NULL,
+    [campaign_id]                BIGINT          NOT NULL,
+    [reach]                      BIGINT          NULL,
+    [inline_link_clicks]         BIGINT          NULL,
+    [campaign_name]              NVARCHAR (MAX)  NULL,
+    [account_id]                 BIGINT          NOT NULL,
+    [date_start]                 DATE            NOT NULL,
+    [account_name]               NVARCHAR (MAX)  NULL,
+    [frequency]                  NUMERIC (20, 4) NULL,
+    [spend]                      NUMERIC (20, 4) NULL,
+    [campaign_stop_time]         DATETIME        NULL,
+    [campaign_start_time]        DATETIME        NULL,
+    [sync_update_peer_timestamp] BIGINT          NULL,
+    [sync_update_peer_key]       INT             NULL,
+    [sync_create_peer_timestamp] BIGINT          NULL,
+    [sync_create_peer_key]       INT             NULL,
+    PRIMARY KEY CLUSTERED ([date_stop] ASC, [campaign_id] ASC, [account_id] ASC, [date_start] ASC));
+
